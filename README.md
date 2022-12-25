@@ -43,7 +43,10 @@ Consider the four different constructs in C♯:
 
 Explain some of the key differences between the three and give examples of where you would use each of them.
 
-Write your answers in the final .pdf file.
+Answers: 
+Class is the most versatile of them all. It allows for almost anything the others allow, therefore being the "largest". It can contain data, methods, logic, etc.
+A struct is a value type object, as opposed to a reference type object (class). That means that a variable assigned to be a struct contains all the date, where as if we assigned a variable to be a class, it'd be a pointer to said class. It is more lightweight than a class, and runs a lot faster. Moreso, it allows you to easily copy the data of one struct to another, by simply assigning a variable to it. Changing the data on one of them wont change the data of the other, as a class would.
+
 
 ### Extension Methods
 
